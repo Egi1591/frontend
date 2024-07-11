@@ -1,0 +1,20 @@
+.buttonsearch { 
+    background-color: red;
+    color:white
+   }
+   .about{
+    width: 400px;
+    height: 400px;
+    margin: 20px auto;
+    float: right;
+   }
+
+    
+.card img{
+    height: 200px;
+    width:100%;
+}
+
+video{
+    width:100%
+}
