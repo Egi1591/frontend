@@ -7,12 +7,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 <link rel = "stylesheet" href = "css/style.css">   
-
 <link rel="shortcut icon" href="image/logo.jpg" type="image/x-icon">
 </head>
   <body>
-      <!-- Nis Navbar -->
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <!-- Nis Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html"><img src="image/logo.jpg" alt=""></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,34 +41,30 @@
         </div>
       </nav>
      <!-- fund Navbar -->
-      <div class="container mt-5">
-        <form>
-            <div class="mb-3">
-                <label for="FirstName" class="form-label">First Name</label>
-                <input type="text" class="form-control" id="FirstName">
-              </div>
-              <div class="mb-3">
-                <label for="LastName" class="form-label">Last Name</label>
-                <input type="text" class="form-control" id="LastName">
-              </div>
-              <div class="mb-3">
-                <label for="Email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="Email">
-              </div>
-              <div class="mb-3">
-                <label for="Comment" class="form-label">Comment</label>
-                <textarea class="form-control" id="comment" rows="3"></textarea>
-              </div>
-              <input type="submit" value="Send" class="btn btn-danger">
-             
-        </form>
-        <div class="alert sms" role="alert">
-        </div>
-      </div>
+       <!-- Nis carousel -->
+       <video src="image/Dark Violet Cyan Orange White Shapes and Widgets YouTube Intro.mp4" class="object-fit-contain" autoplay loop muted ></video>
+      
+     
+        <h1 class="text-center mt-5 pt-5 display-1">Makina me Qera</h1>
 
-<!-- nis footer -->
-<footer class="container-fluid text-center bg-danger text-white d-flex justify-content-center align-items-center mt-5">
-  <div class="fs-3">
+        <div class="container-fluid my-5">
+            <div class="row">
+                <div class="col-6  text-center">
+                    <img src="image/Screenshot_20240703_164945_Instagram.jpg" class="about" alt="">
+                </div>
+                <div class="col-6">
+                    <h2>About Us</h2>
+                    <p>LE-AN ALBANIA_Makina me Qera eshte nje rental i nisur qe ne vitin 2019 e vazhdon ende sot.Nen sloganin " ENJOYABLE LIFE EXPERIENCES" kjo kompani eshte gjithmone prane cdo klienti qe ka nevoje per nje makine me qera. Kompania jone ofron cmimet me te mira e te lira ne treg, kualitet, gatishmeri per ta sjelle makinen kudo ,Tirane, RInas apo kudo dhe ne cdo ore. E gjendur lehtesisht ne rrugen Myslym Shyri prane Maxoptika ,perballe Okaidit ose ne cdo rrjet social si Instagram,Facebook, Whatsapp, Youtube, Linkedin ,Tiktok etj. Mund te na kontaktoni ne rrjetet tona sociale, ne adresen e emil : albania.lean@gmail.com ose ne numrin e cel : 068 804 5315</p> 
+                    <a href="about.html" class="btn buttonsearch">Learn more</a>
+                    </div>
+        
+        </div>
+        <!-- nis seksion1 -->
+<!-- fund seksioni1 -->
+
+  <!-- nis footer -->
+  <footer class="container-fluid text-center bg-danger text-white d-flex justify-content-center align-items-center mt-5">
+    <div class="fs-3">
     <a href="https://www.instagram.com/lean.albania_makina_me_qera_" class="text-white"><i class="fa-brands fa-instagram"></i></a>
     <a href="https://www.facebook.com/p/Lean-Albania-100077210650699/?locale=sq_AL" class="text-white"><i class="fa-brands fa-facebook"></i></a>
     <a href="https://www.tiktok.com/@lean.albania/video/7392706331158826246" class="text-white"><i class="fa-brands fa-tiktok"></i></a>
@@ -77,33 +72,10 @@
     <p>Copy right: 2024</p>
 </div>
 </footer>
-<!-- mbaron footer -->
- 
+ <!-- mbaron footer -->
   
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
- 
-        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-        <script>
-          $("form").on("submit", function (event) {
-    event.preventDefault()
-    let firstName = $("#FirstName").val()
-    let lastName = $("#LastName").val()
-    let email = $("#Email").val()
-    let comment = $("#comment").val()
-console.log(firstName)
-    if (firstName == "" || lastName == "" || email == "" || comment == "") {
-        $(".sms").text("Ju lutemi te plotesoni fushat")
-        $(".sms").addClass("alert-danger")
-        $(".sms").removeClass("alert-success")
-    } else {
-        $(".sms").text("Faleminderit " + firstName + " " + lastName +
-            ". Do t'ju kontaktojme ne adresen " + email + " .")
-        $(".sms").addClass("alert-success")
-        $(".sms").removeClass("alert-danger")
-    }
-
-})
-        </script>
+        <script src="js/index.js"></script>
         </body>
     
 
